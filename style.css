@@ -1,0 +1,62 @@
+body {
+    background: #0d1117;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: #58a6ff;
+}
+
+.xp-box,
+.mission-box {
+    background: #161b22;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.terminal {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+#output {
+    margin-bottom: 15px;
+}
+
+.input-line {
+    display: flex;
+}
+
+.input-line span {
+    color: #58a6ff;
+    margin-right: 10px;
+}
+
+input {
+    flex: 1;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    font-family: monospace;
+}
+
+.success {
+    color: #3fb950;
+}
+
+.error {
+    color: #f85149;
+}
